@@ -13,7 +13,7 @@ export const HorizontalGallery = () => {
   useEffect(() => {
     if (!sectionRef.current || !wrapperRef.current) return;
 
-    let ctx = gsap.context(() => {
+    const ctx = gsap.context(() => {
       const sections = gsap.utils.toArray('.gallery-item');
       
       gsap.to(sections, {

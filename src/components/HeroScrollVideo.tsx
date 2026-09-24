@@ -19,6 +19,7 @@ export const HeroSection: React.FC = () => {
       videoRef.current.play().catch(() => {});
     }
 
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     let lenis: any = null;
     let lenisTicker: ((time: number) => void) | null = null;
 
@@ -32,7 +33,7 @@ export const HeroSection: React.FC = () => {
       })
       .catch(() => {});
 
-    let ctx = gsap.context(() => {
+    const ctx = gsap.context(() => {
       // Scroll animation
       const tl = gsap.timeline({
         scrollTrigger: {

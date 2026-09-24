@@ -116,7 +116,7 @@ export default function Home() {
               <Reveal delay={0.2}>
                 <div className="w-8 h-[1px] bg-[#111] mb-8"></div>
                 <h2 className="text-4xl md:text-5xl font-serif font-light mb-8 leading-[1.1]">
-                  "Dřevo neklame.<br />Ukáže každou chybu, ale i absolutní <span className="italic text-[#8A7961]">mistrovství</span>."
+                  &quot;Dřevo neklame.<br />Ukáže každou chybu, ale i absolutní <span className="italic text-[#8A7961]">mistrovství</span>.&quot;
                 </h2>
                 <div className="space-y-6 text-[#555] font-light leading-relaxed">
                   <p>
